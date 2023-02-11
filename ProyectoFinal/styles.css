@@ -1,0 +1,132 @@
+button {
+    background-color: darkgrey;
+    color: black;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#parrContacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.datos {
+    max-width: 730px;
+    margin: auto;
+    overflow: hidden
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+
+.titulos{
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    background:darkgrey;
+}
+
+.textos{  
+color: purple;
+    width: 40%;
+    margin-left: 1px;
+    border: 4px solid brown;
+}
+
+body{
+    border: 10px solid black;
+    padding: 5px;
+    text-align: justify;
+    background: white; 
+    transition: all .25s ease-in-out;
+    position: relative;
+    left: 0
+}
+
+
+header {   
+    background: #2c2e31;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+  
+}
+
+section.datosPerson {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(228, 228, 228);
+           
+}
+
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    }
+
+li{
+    font-family: 'Saira', sans-serif;
+}
+
+
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-mail {background: #666666;}
+    .social ul li .icon-whatsapp {background: #4ada80;}    
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
